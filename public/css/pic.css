@@ -1,0 +1,92 @@
+
+
+
+/**
+wallpaper
+**/
+body{
+  background: url("/img/wallpaper.jpg");
+}
+
+.feather {
+  width: 16px;
+  height: 16px;
+  vertical-align: text-bottom;
+}
+
+/**
+nav
+**/
+.navbar-laravel{  
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+  background-color: lightblue;
+}
+
+
+/**
+pic
+**/
+.row{
+  display: flex;
+}
+
+.pic {
+  flex: 33.33%;
+  padding: 2px;
+  width: 100%;
+}
+
+#sidepic{
+  margin: 5px;
+}
+
+.responsive {
+  max-width: 100%;
+}
+
+/**
+tags
+**/
+
+.badge-primary{
+	padding: 5px;
+	background-color: lightblue;
+	color: black;
+  margin: 2px;
+}
+
+.untag {
+  margin: 10px;
+}
+
+/**
+upload
+**/
+
+.jumbotron-fluid{
+  background-color: lightblue;
+}
+
+/**
+reg and login form
+**/
+.authform{
+  background-color: lightblue;
+  colour: white;
+}
+
+.go-top {
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  text-decoration: none;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 12px;
+  padding: 1em;
+  display: none;
+}
+
+.go-top:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
